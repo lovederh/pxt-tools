@@ -3,7 +3,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "neopixel": "github:microsoft/pxt-neopixel#v0.6.2"
+        "neopixel": "github:microsoft/pxt-neopixel#v0.6.2",
+        "pxt-tools": "github:lovederh/pxt-tools#c56e4f749757a732b10fb55c7d536bef81ac36a9"
     },
     "description": "",
     "files": [
