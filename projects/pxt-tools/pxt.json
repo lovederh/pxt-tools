@@ -1,0 +1,18 @@
+{
+    "name": "pxt-tools",
+    "version": "0.0.1",
+    "description": "a pxt tools for microbit",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true
+}
