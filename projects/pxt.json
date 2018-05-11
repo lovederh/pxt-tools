@@ -4,7 +4,7 @@
         "core": "*",
         "radio": "*",
         "neopixel": "github:microsoft/pxt-neopixel#v0.6.2",
-        "pxt-tools": "github:lovederh/pxt-tools#c56e4f749757a732b10fb55c7d536bef81ac36a9"
+        "pxt-tools": "github:lovederh/pxt-tools#f57618e4e9df90cc6296647018ba7e9d445f3161"
     },
     "description": "",
     "files": [
