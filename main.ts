@@ -22,7 +22,7 @@ namespace hyedu{
         }
     }
     //% blockId=hyedu_get_eyes block="eyes %x"
-    export function getEyes(x: number): number { 
-        return x;
+    export function getEyes(): number { 
+        return 2;
     }
 }
