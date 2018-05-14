@@ -1,11 +1,15 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <variables></variables>
-  <block type="pxt-on-start" x="27" y="49"></block>
-  <block type="device_forever" x="215" y="64"></block>
-  <block type="device_button_event" x="67" y="176">
+  <block type="pxt-on-start" x="0" y="0"></block>
+  <block type="device_forever" x="188" y="15"></block>
+  <block type="device_button_event" x="40" y="127">
     <field name="NAME">Button.A</field>
     <statement name="HANDLER">
-      <block type="hyedu_showSmileFace"></block>
+      <block type="hyedu_showSmileFace">
+        <next>
+          <block type="hyedu_showSmileFace"></block>
+        </next>
+      </block>
     </statement>
   </block>
 </xml>
