@@ -1,0 +1,21 @@
+{
+  "name": "pxt-tools",
+  "version": "1.0.0",
+  "description": "A minimal pxt application",
+  "main": "main.js",
+  "scripts": {
+    "pxtServe": "pxt serve --no-browser&",
+    "npmServe": "electron . &",
+    "start": "npm run pxtServe && npm run npmServe"
+  },
+  "repository": "https://github.com/lovederh/pxt-tools",
+  "keywords": [
+    "hyedu",
+    "pxt-tools",
+    "pxt",
+    "tools",
+    "adv"
+  ],
+  "author": "lovederh",
+  "license": "MIT"
+}
