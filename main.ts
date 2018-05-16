@@ -25,4 +25,9 @@ namespace hyedu{
     export function getEyes(): number { 
         return 2;
     }
+
+    //% blockId=hyedu_sin block="开平方 %x"
+    export function sqrt(x: number): number { 
+        return Math.sqrt(x);
+    }
 }
