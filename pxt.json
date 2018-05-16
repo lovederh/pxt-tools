@@ -7,6 +7,9 @@
         "core": "*",
         "radio": "*"
     },
+    "keywords": [
+        "hyedu"
+    ],
     "files": [
         "README.md",
         "main.ts"
