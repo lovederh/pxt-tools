@@ -1,13 +1,74 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <variables></variables>
-  <block type="pxt-on-start" x="0" y="0"></block>
-  <block type="device_forever" x="188" y="15"></block>
-  <block type="device_button_event" x="40" y="127">
+  <block type="device_button_event" x="0" y="0">
     <field name="NAME">Button.A</field>
     <statement name="HANDLER">
-      <block type="hyedu_showSmileFace">
+      <block type="device_show_number">
+        <value name="number">
+          <block type="math_arithmetic">
+            <field name="OP">DIVIDE</field>
+            <value name="A">
+              <shadow type="math_number">
+                <field name="NUM">10</field>
+              </shadow>
+            </value>
+            <value name="B">
+              <shadow type="math_number">
+                <field name="NUM">5</field>
+              </shadow>
+            </value>
+          </block>
+        </value>
         <next>
-          <block type="hyedu_showSmileFace"></block>
+          <block type="device_show_leds">
+            <field name="LED00">TRUE</field>
+            <field name="LED10">TRUE</field>
+            <field name="LED20">TRUE</field>
+            <field name="LED30">TRUE</field>
+            <field name="LED40">FALSE</field>
+            <field name="LED01">TRUE</field>
+            <field name="LED11">FALSE</field>
+            <field name="LED21">FALSE</field>
+            <field name="LED31">TRUE</field>
+            <field name="LED41">FALSE</field>
+            <field name="LED02">TRUE</field>
+            <field name="LED12">TRUE</field>
+            <field name="LED22">TRUE</field>
+            <field name="LED32">TRUE</field>
+            <field name="LED42">TRUE</field>
+            <field name="LED03">TRUE</field>
+            <field name="LED13">FALSE</field>
+            <field name="LED23">FALSE</field>
+            <field name="LED33">TRUE</field>
+            <field name="LED43">FALSE</field>
+            <field name="LED04">TRUE</field>
+            <field name="LED14">TRUE</field>
+            <field name="LED24">TRUE</field>
+            <field name="LED34">TRUE</field>
+            <field name="LED44">FALSE</field>
+            <next>
+              <block type="device_show_number">
+                <value name="number">
+                  <shadow type="math_number" id="r;grfpzq{iTvG(~:oamL">
+                    <field name="NUM">0</field>
+                  </shadow>
+                  <block type="math_arithmetic">
+                    <field name="OP">DIVIDE</field>
+                    <value name="A">
+                      <shadow type="math_number">
+                        <field name="NUM">10</field>
+                      </shadow>
+                    </value>
+                    <value name="B">
+                      <shadow type="math_number">
+                        <field name="NUM">5</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
         </next>
       </block>
     </statement>
